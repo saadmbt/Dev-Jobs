@@ -19,7 +19,7 @@ function App() {
         <Route index element={<Homepage/>}/>
         <Route path='/Jobs' element={<Jobspage/>}/>
         <Route path='/Jobs/Job-Info/:id' element={<JobInfo ch={getobject}/>}/>
-        <Route path='/Add-job' element={<AddJob/>}/>
+        <Route path='/Jobs/Add-job' element={<AddJob/>}/>
         <Route path='/Jobs/Job-Info/Edit-Job/:id' element={<EditJobPage id={fetch} data={da}/>} />
         <Route path='*' element={<NotFoundpage/>}/>
     </Route>
