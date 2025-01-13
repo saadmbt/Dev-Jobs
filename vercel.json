@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "root": ".",
   "builds": [
     {
       "src": "src/main.jsx",
